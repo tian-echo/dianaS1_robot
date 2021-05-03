@@ -40,7 +40,7 @@ git init
 git add .
 
 
-git remote add github https://github.com/tian-echo/dianaS1_robot
+git remote add github https://github.com/tian-echo/dianaS1_robot.git
 
 git commit -m "$(date)"
 
