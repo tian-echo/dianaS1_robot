@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+  <group ns="DianaS1__">
+    <include file="$(find dianaS1_gazebo)/launch/DianaS1.launch"/>
+  </group>
+
+  <group ns="DianaS1_joint_limited__">
+    <include file="$(find dianaS1_gazebo)/launch/DianaS1_joint_limited.launch"/>
+  </group>
+
+  <group ns="controller_utils__">
+    <include file="$(find dianaS1_gazebo)/launch/controller_utils.launch"/>
+  </group>
+
+</launch>

@@ -1,0 +1,19 @@
+dianaS1_robot:
+  arm_joint_controller:
+    type: position_controllers/JointTrajectoryController
+    joints: 
+       - joint1 
+       - joint2 
+       - joint3 
+       - joint4 
+       - joint5 
+       - joint6
+       - joint7
+    gains:
+       joint1: {p: 10000, i: 10, d: 100.0, i_clamp: 0.0}
+       joint2: {p: 10000, i: 10, d: 100.0, i_clamp: 0.0}
+       joint3: {p: 10000, i: 10, d: 100.0, i_clamp: 0.0}
+       joint4: {p: 10000, i: 10, d: 100.0, i_clamp: 0.0}
+       joint5: {p: 3000, i: 10, d: 30.0, i_clamp: 0.0}
+       joint6: {p: 1000, i: 10, d: 10.0, i_clamp: 0.0}
+       joint7: {p: 1000, i: 10, d: 10.0, i_clamp: 0.0}

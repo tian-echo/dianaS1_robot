@@ -1,0 +1,14 @@
+joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: &loop_hz 1000
+
+joint_group_eff_controller:
+    type: effort_controllers/JointGroupEffortController
+    joints: &robot_joints
+     - joint1
+     - joint2
+     - joint3
+     - joint4
+     - joint5
+     - joint6
+     - joint7

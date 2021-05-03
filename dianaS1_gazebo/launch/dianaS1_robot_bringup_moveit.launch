@@ -1,0 +1,15 @@
+<launch>
+
+  <!-- Launch Gazebo --> 
+  <include file="$(find dianaS1_gazebo)/launch/dianaS1_robot_gazebo_world.launch" />
+
+  <include file="$(find dianaS1_gazebo)/launch/dianaS1_robot_gazebo_states.launch" />   
+
+  <!-- ros_control trajectory control dof arm launch file -->
+  <include file="$(find dianaS1_gazebo)/launch/dianaS1_robot_trajectory_controller.launch" />
+
+  <!-- moveit launch file -->
+  <include file="$(find dianaS1_moveit_config)/launch/moveit_planning_execution.launch" />
+
+</launch>
+

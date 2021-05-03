@@ -1,0 +1,14 @@
+dianaS1_robot: 
+  joint_state_controller: 
+    type: joint_state_controller/JointStateController 
+    publish_rate: 50
+
+# gazebo_ros_control:
+#   pid_gains:
+#     joint1: {p: 10000, i: 10, d: 100.0}
+#     joint2: {p: 10000, i: 10, d: 100.0}
+#     joint3: {p: 10000, i: 10, d: 100.0}
+#     joint4: {p: 10000, i: 10, d: 100.0}
+#     joint5: {p: 3000, i: 10, d: 30.0}
+#     joint6: {p: 1000, i: 10, d: 10.0}
+#     joint7: {p: 1000, i: 10, d: 10.0}
